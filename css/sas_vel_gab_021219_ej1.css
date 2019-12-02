@@ -1,0 +1,127 @@
+
+.sasvelgabClase1{
+    color: cadetblue;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sasvelgabParticular1{
+    outline: 2px solid red;
+    text-align: center;
+    padding: 15px;
+}
+.contenedortransform{
+   min-height: auto;
+    position: relative;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+.contenedortransform p{ 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   display: inline;
+}
+#texto1{
+    position: absolute;
+    top: 0px;
+    right: 0px;/*lo pongo a la derecha para que no se ponga encima del enlace */
+    color: tomato;
+}
+.centradoeleminline{
+    text-align: center;
+    margin-top: 20px;
+}
+.sasvelgabcontenedora1{
+    width: 70%;
+    margin-top: 20px;
+    background-color: blueviolet;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sasvelgabcontenedora1 p{
+    font-size: 20px;
+    letter-spacing: 5px;
+     color: white;
+}
+.floatizq{
+    float: left;
+}
+.ollclase1sasvelgab{
+    margin-top: 30px;
+}
+
+.sasvelgabliclase1{
+    list-style-image: url("../img/IconoBB1.jpg");
+}
+.sasvelgabliclase1::first-letter{
+    font-size: 200%;
+    color: blue;
+}
+.Contenedora2sasvelgab{
+    text-align: center;
+    border: 2px dashed brown;
+}
+
+
+@font-face{
+    font-family: familiafuente1;
+    src: url("../font/BebasNeue-Regular.ttf");
+        }
+        #estilo1sasvelgab{
+    font-family: familiafuente1;
+        }
+
+
+.sasvelgabClases1{
+    text-decoration: none;
+    line-height: 2.2;
+    text-align: center;
+    
+}
+.Clases2sasvelgab{
+    color: chartreuse;
+}
+.Clases2sasvelgab:hover{
+    color: springgreen;
+}
+.Clases2sasvelgab:active{
+    color: lavenderblush;
+}
+.Clases2sasvelgab:visited{
+    color: blue;
+}
+.contenedor1sasvelgab{
+    text-align: center;
+}
+ul { 
+    list-style-type: none;
+margin-top: 30px;
+ padding: 0; 
+ width: 200px;
+  background-color: #f1f1f1;
+
+   }
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+     } 
+ li a.activo {
+    background-color: #4CAF50; 
+    color: white;
+        } 
+li a:hover:not(.activo) { 
+    background-color: #555;
+    color: white;
+                          } 

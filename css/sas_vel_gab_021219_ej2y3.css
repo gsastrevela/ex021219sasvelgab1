@@ -1,0 +1,60 @@
+body {
+    font-size: 28px;
+     }
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: darkslategrey;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+        } 
+li { 
+    float: left; 
+    } 
+li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    }
+li a:hover { 
+    background-color: darkgrey;
+    }
+.active { 
+    background-color: dodgerblue; 
+        } 
+
+.capacontenedora{
+    height: 300px;
+    position: relative;
+    
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.capa1{
+    float: left;
+    text-align: center;
+    background-color: darkslategray;
+    height: 300px;
+    width: 34%;
+}
+.capa2{
+    float: left;
+    text-align: center;
+    background-color: grey;
+    height: 300px;
+    width: 33%;
+}
+.capa3{
+    float: left;
+    text-align: center;
+    background-color: lemonchiffon;
+    height: 300px;
+    width: 33%;
+}
